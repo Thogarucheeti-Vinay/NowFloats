@@ -1,0 +1,29 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://img.freepik.com/free-vector/flat-design-monsoon-season-clouds-illustration_23-2149424294.jpg");
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.inner-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inner-box .card {
+  margin: 0px;
+  padding: 30px 60px;
+}
+.inner-box .card:hover {
+  background-color: #333;
+  color: white;
+}
+
+.inner-box h2:hover {
+  background-color: #333;
+  color: white;
+}

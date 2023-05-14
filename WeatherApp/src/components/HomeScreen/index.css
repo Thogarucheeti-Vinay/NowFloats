@@ -1,0 +1,99 @@
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  margin-bottom: 20px;
+  max-width: 500px;
+  margin-right: 25px;
+}
+
+.container {
+  background-image: url("https://img.freepik.com/free-vector/flat-design-monsoon-season-clouds-illustration_23-2149424294.jpg");
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+h2 {
+  text-decoration: underline;
+}
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.hero-text {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 50px;
+  font-weight: bold;
+}
+.card2 {
+  display: flex;
+  padding: 10px;
+  padding-left: 0px;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card2:hover,
+.card:hover {
+  background-color: #333;
+  color: white;
+}
+
+.card2:hover h2,
+.card:hover h2 {
+  background-color: #333;
+  color: white;
+}
+
+.button {
+  display: flex;
+  background-color: #ffc107;
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-bottom: 15px;
+  padding: 10px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.button:hover {
+  background-color: #ff9800;
+}
+ul {
+  padding: 0px;
+  list-style-type: none;
+}
+
+.link {
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #5893d1;
+  border: none;
+  cursor: pointer;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+}
+.icon {
+  font-size: 1.1rem;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+.current {
+  color: black;
+}

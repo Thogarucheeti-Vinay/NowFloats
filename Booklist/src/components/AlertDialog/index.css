@@ -1,0 +1,33 @@
+.alert-dialog-wrapper {
+  background-color: white;
+  border-radius: 4px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.alert-dialog-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.alert-dialog-message {
+  margin-bottom: 20px;
+  color: red;
+}
+
+.alert-dialog-close-button {
+  background-color: #ccc;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.alert-dialog-close-button:hover {
+  background-color: #bbb;
+}

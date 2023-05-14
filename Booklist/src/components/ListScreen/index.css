@@ -1,0 +1,74 @@
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ListScreen {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ListScreen h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+  text-decoration: underline;
+}
+
+.ListScreen ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-gap: 2rem;
+}
+
+.ListScreen li {
+  background-color: #fff;
+  box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.ListScreen li:hover {
+  transform: scale(1.03);
+}
+
+.ListScreen h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 1rem;
+  background-color: #f1f1f1;
+  color: #333;
+}
+
+.ListScreen p {
+  margin: 1rem;
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.ListScreen a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #4caf50;
+  border-radius: 5px;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+  margin-top: 2rem;
+}
+
+.ListScreen a:hover {
+  background-color: #3e8e41;
+}
+.ListScreen .button {
+  align-self: center;
+  width: 80px;
+  margin-top: 25px;
+}
